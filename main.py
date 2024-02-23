@@ -12,7 +12,7 @@ class UI:
         self.window = window
         self.window.title("SDAI绘画")
         self.window.geometry("500x350")
-        self.url_var = tk.StringVar(value="http://119.23.213.95:8001")
+        self.url_var = tk.StringVar(value="http://119.xxxxx.95:8001")
         self.model_var = tk.StringVar(value="1.5_CG风格二次元_V1")
         self.prompt_var = tk.StringVar(value="photo of beautiful age 18 girl")
         self.negative_prompt_var = tk.StringVar(value="text, watermark, low quality, medium quality, blurry, censored,")
