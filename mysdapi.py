@@ -98,7 +98,7 @@ def overdraw(url,prompt,negative_prompt,steps,model):
         image.save(file_path, pnginfo=pnginfo)
 
 if __name__ == "__main__":
-    url = "http://119.23.213.95:8001"
+    url = "http://119.xxxxxx.95:8001"
     prompt="photo of beautiful age 18 girl, blonde hair, sexy"
     negative_prompt="text, watermark, low quality, medium quality, blurry, censored, wrinkles, deformed, mutated text, watermark, low quality, medium quality, blurry, censored, wrinkles, deformed, mutated"
     steps=20
